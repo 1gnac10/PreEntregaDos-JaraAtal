@@ -1,0 +1,92 @@
+/*body, sections, and navbar*/
+body {
+	background-color: #172b4d; /*dark blue*/
+}
+
+section {
+	margin-top: 20px;
+	padding-top: 63px; /*leave room for top navbar*/
+}
+
+.navbar {
+	background-color: #ffffff; /*darker blue*/
+	border-radius: 10px;
+}
+
+#intro {
+	background-color: #ffffff; /*medium blue*/
+	min-height: 100vh;
+	padding-bottom: 30px;
+	border-radius: 10px;
+}
+
+#skills,
+#about {
+	background-color: #ffffff; /*white*/
+	border-radius: 10px;
+}
+
+#projects {
+	background-color: #455d7a; /*darker grey*/
+	border-radius: 10px;
+}
+
+/*headings y links*/
+h3 {
+	font-size: 24px;
+	color: #545454; /*white*/
+}
+
+main a {
+	color: #61a3d4; /*light blue*/
+	text-decoration: underline;
+}
+
+main a:hover {
+	color: #185394; /*blue*/
+	text-decoration: underline !important;
+}
+
+#intro a {
+	font-size: 20px;
+	color: #ffffff; /*white*/
+}
+
+/*image and buttons*/
+#intro img {
+	padding: 10%;
+	border-radius: 10px;
+}
+
+.btn {
+	color: #ffffff; /*white*/
+	background-color: #3e617d; /*darker blue*/
+	border-color: #3e617d; /*darker blue*/
+	text-decoration: none;
+	display: block;
+	width: 180px;
+	border-radius: 5px;
+}
+
+.btn:hover {
+	color: #ffffff; /*white*/
+	background-color: #1e385d; /*darker blue*/
+	border-color: #1e385d; /*darker blue*/
+}
+
+/*carousel*/
+.carousel-indicators li {
+	background-color: rgba(0, 0, 0, 0.5); /*black, 50% opacity*/
+	border-radius: 50%;
+}
+
+.carousel-indicators .active {
+	background-color: rgba(0, 0, 0, 0.9); /*black, 70% opacity*/
+	border-radius: 50%;
+}
+
+.carousel-caption {
+	background-color: rgba(255, 255, 255, 0.7); /*white, 70% opacity*/
+	color: #000000; /*black*/
+	border-radius: 10px;
+}
